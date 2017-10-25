@@ -79,7 +79,7 @@ window.App = {
       return token.balanceOf.call(account, { from: account });
     }).then(function (value) {
       var balanceElement = document.getElementById('balance');
-      balanceElement.innerHTML = window.web3.fromWei(value, 'ether');
+      balanceElement.innerHTML = 'You have ' + window.web3.fromWei(value, 'ether') +' XEDTA';
     }).catch(function (e) {
       console.log(e);
       self.setStatus('Error getting balance; see log.');
