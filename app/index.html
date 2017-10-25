@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EdtaToken</title>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  
+  <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  
+  <script src="./app.js"></script>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">EDTA</a>
+    <span id="balance"></span> XEDTA</span>||
+    <small><span id="status"></span></small>
+  </nav>
+  <div class="container">
+    <h1>ECM Dapps Tokenholders Association</h1>
+    <h2>Accessible Distributed Apps</h2>
+    <br>
+    <div class="row justify-content-center">     
+      <div class="about col-md-9">
+        <p>Support access to Ethereum on android by buying XEDTA. Our EDTA Token.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">     
+      <div class="warning col-md-9">
+        <p class="justify-content-center">
+          <b>Do not send Ether from an Exchange</b>
+          <br>
+          For a wallet to be compatible, you must be able to export your private key.
+          <br>
+          By contributing you confirm that you understand the laws associated with ethereum and cryptocurrencies in your place of residence or work and are not doing anything illegal.
+        </p>
+        <p><a href="#buy">Buy</a> || <a href="#send">Send</a> || <a href="#check">Confirm</a></p>
+      </div>
+    </div>
+    <div class="row justify-content-center">     
+        <div class="products col-md-9">
+          <h4>What am I supporting?</h4>
+          <p>Distro, exposes <b>Ethereum on Mobile</b>, driving common acceptance of Ethereum, helps the community grow</p>
+        
+          <h4>Can I see the source code?</h4>
+          <p>Of course right here</p>
+
+          <h4>Can I use the app?</h4>
+          <p>Definitely, hre it is, but it is not ready so be careful</p>
+
+          <h4>What can I do with XEDTA?</h4>
+          <p>Currently, direct the community, in the future, hire and fire contractors, e.t.c. </p>
+
+          <h4>What do I get?</h4>
+          <p>All the tokens. and a pretty fantastic eth mobile browser!</p>
+
+          <h4>What do you get?</h4>
+          <p>To build Distro and apps like it.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1>Buy XEDTA</h1>
+        <br><label for="buyAmount">Amount:</label><input type="text" id="buyAmount" placeholder="e.g., 15"></input>
+        <br><br><button id="buy" onclick="App.buyCoin()">Buy XEDTA</button>
+        <h3>Buy from other wallets by sending to: <span id="crowdsaleAddress" class="black"></span></h3>
+        <hr/>
+      </div>
+    </div>
+  
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1>check for XEDTA</h1>
+        <br><label for="address">Address:</label><input type="text" id="address" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+        <br><br><button id="check" onclick="App.checkBalance()">Check</button>
+        <span id="checker"></span>
+        <br><br>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1>Send XEDTA</h1>
+        <br><label for="amount">Amount:</label><input type="text" id="amount" placeholder="e.g., 95"></input>
+        <br><label for="receiver">To Address:</label><input type="text" id="receiver" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+        <br><br><button id="send" onclick="App.sendCoin()">Send XEDTA</button>
+        <br><br>
+      </div>
+    </div>
+
+    <span id="status"></span>
+    <br>
+  </div>
+</body>
+</html>
