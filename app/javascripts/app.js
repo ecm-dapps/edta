@@ -30,7 +30,7 @@ window.App = {
     EdtaTokenSale.setProvider(window.web3.currentProvider);
     EdtaToken.setProvider(window.web3.currentProvider);
 
-    // Get the initial account balance so it can be displayed.
+    // Get the initial account balance it can be displayed.
     window.web3.eth.getAccounts(function (err, accs) {
       if (err != null) {
         window.alert('There was an error fetching your accounts.');
