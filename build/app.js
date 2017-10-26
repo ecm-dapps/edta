@@ -43668,7 +43668,7 @@ exports = module.exports = __webpack_require__(277)();
 
 
 // module
-exports.push([module.i, "body {\r\n  font-family: \"Open Sans\", sans-serif;\r\n}\r\n\r\nlabel {\r\n  display: inline-block;\r\n  width: 100px;\r\n}\r\n\r\ninput {\r\n  width: 500px;\r\n  padding: 5px;\r\n  font-size: 16px;\r\n}\r\n\r\nbutton {\r\n  font-size: 16px;\r\n  padding: 5px;\r\n}\r\n\r\nh1, h2 {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  margin-top: 0px;\r\n  margin-bottom: 10px;\r\n}\r\n\r\nh2 {\r\n  color: #AAA;\r\n  font-size: 32px;\r\n}\r\n\r\nh3 {\r\n  font-weight: normal;\r\n  color: #AAA;\r\n  font-size: 24px;\r\n}\r\n\r\n.black {\r\n  color: black;\r\n}\r\n\r\n#balance {\r\n  color: rgb(148, 141, 141);\r\n}\r\n\r\n#app {\r\n  margin-top: 5%;\r\n}\r\n\r\n.hint {\r\n  color: #666;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\r\n  font-family: \"Open Sans\", sans-serif;\r\n  font-size: 1.5em;\r\n}\r\n\r\nh1, h2 {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  margin-top: 0px;\r\n  margin-bottom: 10px;\r\n}\r\n\r\nh2 {\r\n  color: #AAA;\r\n}\r\n\r\nh3 {\r\n  font-weight: normal;\r\n  color: #AAA;\r\n}\r\n\r\n.black {\r\n  color: black;\r\n}\r\n\r\n#balance {\r\n  color: rgb(148, 141, 141);\r\n}\r\n\r\n#app {\r\n  margin-top: 10%;\r\n}\r\n\r\n.hint {\r\n  color: #666;\r\n}\r\n", ""]);
 
 // exports
 
