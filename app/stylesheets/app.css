@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
 }
 
 label {
@@ -13,11 +14,6 @@ input {
   font-size: 16px;
 }
 
-button {
-  font-size: 16px;
-  padding: 5px;
-}
-
 h1, h2 {
   display: inline-block;
   vertical-align: middle;
@@ -27,13 +23,11 @@ h1, h2 {
 
 h2 {
   color: #AAA;
-  font-size: 32px;
 }
 
 h3 {
   font-weight: normal;
   color: #AAA;
-  font-size: 24px;
 }
 
 .black {
@@ -45,7 +39,7 @@ h3 {
 }
 
 #app {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .hint {
